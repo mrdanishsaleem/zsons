@@ -3,66 +3,54 @@
 ?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coming Soon</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <style>
-        body, html {
+        body,
+        html {
             height: 100%;
             margin: 0;
-            font-family: Arial, sans-serif;
+            font-family: 'Roboto', sans-serif;
             display: flex;
             justify-content: center;
             align-items: center;
             background-color: #f3f4f6;
             color: #333;
         }
+
         .coming-soon-container {
             text-align: center;
         }
+
+        .coming-soon-container img {
+            max-width: 200px;
+            margin-bottom: 20px;
+        }
+
         .coming-soon-container h1 {
             font-size: 48px;
             margin-bottom: 20px;
+            font-weight: 700;
         }
+
         .coming-soon-container p {
             font-size: 24px;
             margin-bottom: 40px;
-        }
-        .coming-soon-container .newsletter {
-            margin-top: 30px;
-        }
-        .coming-soon-container input[type="email"] {
-            padding: 10px;
-            font-size: 18px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            margin-right: 10px;
-        }
-        .coming-soon-container input[type="submit"] {
-            padding: 10px 20px;
-            font-size: 18px;
-            color: #fff;
-            background-color: #007bff;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-        .coming-soon-container input[type="submit"]:hover {
-            background-color: #0056b3;
+            font-weight: 300;
         }
     </style>
 </head>
+
 <body>
     <div class="coming-soon-container">
+        <img src="https://zsonsgroup.com/wp-content/uploads/thegem-logos/logo_0e34f6dd1d3feaab025fa3e276c4a6b4_1x.png" alt="Logo">
         <h1>Coming Soon</h1>
-        <p>Our website is under construction. We'll be here soon with our new awesome site, subscribe to be notified.</p>
-        <div class="newsletter">
-            <form action="subscribe.php" method="post">
-                <input type="email" name="email" placeholder="Enter your email" required>
-                <input type="submit" value="Notify Me">
-            </form>
-        </div>
+        <p>Our website is under construction. We'll be here soon with our new awesome site.</p>
     </div>
 </body>
+
 </html>
